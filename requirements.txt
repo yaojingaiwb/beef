@@ -1,0 +1,8 @@
+aiofiles
+asyncio
+curl-cffi
+fake-useragent
+loguru
+web3
+eth-account
+colorama
