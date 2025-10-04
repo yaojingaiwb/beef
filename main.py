@@ -7,8 +7,8 @@ from typing import Optional, Dict
 from colorama import Fore, Style
 
 # 重试配置
-MAX_RETRIES = 3  # 重试次数
-RETRY_DELAY = 3  # 重试延迟
+MAX_RETRIES = 1  # 重试次数
+RETRY_DELAY = 1  # 重试延迟
 
 # 项目配置参数
 INVITE_CODE = ""  # 邀请码 不用填
@@ -607,3 +607,4 @@ if __name__ == "__main__":
         logger.warning("程序被用户中断")
     except Exception as e:
         logger.error(f"程序异常退出: {str(e)}")
+
